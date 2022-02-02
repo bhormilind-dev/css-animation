@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    border-radius: 50%;
+    background-color: pink;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    line-height: 0;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background,border 1s, transform 0.7s 0.3s;
+}
+
+.button:hover {
+    background: salmon;
+    border: 1px solid salmon;
+    transform: rotate(360deg);
+}
