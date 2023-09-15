@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+svg #text {
+    stroke-width: 1px;
+    stroke: rgb(68, 215, 215);
+    stroke-linejoin: round;
+    stroke-dasharray: 20;
+
+    
+   
+
+    fill: rgba(255, 253, 253, 0.184);
+
+    animation: animate 1s infinite;
+}
+svg {
+    width: 1200px;
+    height: 160px;
+}
+@keyframes animate {
+
+    100% {
+        stroke-dashoffset: 40;
+    }
+    
+}
